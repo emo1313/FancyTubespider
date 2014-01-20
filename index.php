@@ -435,10 +435,15 @@ $dz = explode("/",$_SERVER['PATH_INFO']);
 <body>
 
 <div class="mytop">
-    <h1><a href="/tubespider">Tube Spider</a> <?= $_text['lang03'] . " " . $_POST['search_query']; ?></h1>
+    <h1><a href="<?= $_URL; ?>">Tube Spider</a> <?= $_text['lang03'] . " " . $_POST['search_query']; ?></h1>
 </div>
-<div class="content">
-    <div id="center" class="center" align="center">
+
+<div class="footer">
+    <a href="http://www.scriptme.com">Scriptme</a>
+</div>
+
+<div class="content" id="content">
+<div id="center" class="center" align="center">
         <br><br><br><br><br>
 
         <form action="<?= $_URL; ?>/index.php" id="content" method="post" name="v">
@@ -503,7 +508,6 @@ if($dz['1']=="view"){youtube_t($dz['2']);}if((empty($dz['1'])) && (empty($_POST[
     </div id="center">
     <br><br><br>
 
-    <div class="left"></div>
-    <div class="footer"><a href="http://www.scriptme.com">Scriptme</a></div>
-</div>
+</div id="content">
+
 </body></html>

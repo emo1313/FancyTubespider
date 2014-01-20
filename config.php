@@ -1,7 +1,7 @@
 <?php
 error_reporting(0);
 // URL RUNNING THE SCRIPT	
-$_URL = "http://192.168.0.250/tubespider";
+$_URL = "http://192.168.0.250/fancytubespider";
 $_HTP = "http://"; // DONOT CHANGE
 // DEFAULT SEARCH DISPLAY VIDEOS BASED IN THIS KEYWORD IN INDEX
 $_dv = "Funny";
@@ -15,4 +15,6 @@ $_text['lang06'] = "<img src=\"/download.png\" alt=\"download\" /> Download This
 $_text['lang07'] = "<h3>Featured Videos</h3>";
 $_text['lang08'] = "Download this video ";
 $_text['lang09'] = " rename to videoname.flv";
+$_text['search01'] = 'Road Kill'; // preconfigured search link in left box
+$_text['search02'] = 'Topgear';
 ?>
